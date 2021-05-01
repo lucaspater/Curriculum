@@ -1,0 +1,76 @@
+/* aside */
+aside {
+    background: rgb(16, 107, 39);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image{
+    width: 200px;
+    height: auto;
+    padding: 10px;
+}
+
+h2 {
+    color: white;
+}
+
+aside hr {
+    height: 6px;
+    margin-left: 0%;
+    background: rgb(22, 22, 54);
+    width: 5%;
+}
+aside ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* main */
+main{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(16, 107, 39);
+    /* Luis como hago para crear un espacio entre el titulo (nombre) y el subrayado (border-bottom)?*/
+    border-bottom: rgb(16, 107, 39) solid 10px;
+    font-family: Helvetica;
+}
+
+#experiencia {
+    color: rgb(22, 22, 54)
+}
+
+hr {
+    height: 6px;
+    margin-left: 0%;
+    background: rgb(16, 107, 39);
+    width: 5%;
+}
+
+main h2 {
+    color: rgb(16, 107, 39);
+}
+
+main h3 {
+    color: rgb(22, 22, 54)
+}
+
+/* footer */
+
+h2 {
+    color: rgb(22, 22, 54);
+}
+
+footer hr {
+    height: 6px;
+    margin-left: 0%;
+    background: rgb(16, 107, 39);
+    width: 5%;    
+}
+.list li {
+    list-style: none;
+    margin-left: 0%;
+}
