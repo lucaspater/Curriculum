@@ -10,10 +10,6 @@ aside {
     padding: 10px;
 }
 
-h2 {
-    color: white;
-}
-
 aside hr {
     height: 6px;
     margin-left: 0%;
@@ -34,8 +30,8 @@ main{
 
 h1 {
     color: rgb(16, 107, 39);
-    /* Luis como hago para crear un espacio entre el titulo (nombre) y el subrayado (border-bottom)?*/
     border-bottom: rgb(16, 107, 39) solid 10px;
+    padding-bottom: 40px;
     font-family: Helvetica;
 }
 
@@ -58,9 +54,15 @@ main h3 {
     color: rgb(22, 22, 54)
 }
 
+main li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 /* footer */
 
-h2 {
+footer h2 {
     color: rgb(22, 22, 54);
 }
 
@@ -68,7 +70,7 @@ footer hr {
     height: 6px;
     margin-left: 0%;
     background: rgb(16, 107, 39);
-    width: 5%;    
+    width: 5%;
 }
 .list li {
     list-style: none;
