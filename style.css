@@ -1,7 +1,24 @@
+body{
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    font-family: 'Roboto', sans-serif;
+}
+@media(max-width:768px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
 /* aside */
 aside {
     background: rgb(16, 107, 39);
-    font-family: Arial, Helvetica, sans-serif;
+    width: 470px;
+    padding: 16px;
+    justify-content: flex-start;
 }
 
 .image{
@@ -10,11 +27,15 @@ aside {
     padding: 10px;
 }
 
+aside section{
+    margin-bottom: 36px;
+}
+
 aside hr {
     height: 6px;
     margin-left: 0%;
     background: rgb(22, 22, 54);
-    width: 5%;
+    width: 100px;
 }
 aside ul {
     margin: 0;
@@ -23,16 +44,18 @@ aside ul {
 }
 
 /* main */
-main{
+main {
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    justify-content: flex-end;
+    margin-left: 15px;
 }
 
 h1 {
     color: rgb(16, 107, 39);
     border-bottom: rgb(16, 107, 39) solid 10px;
-    padding-bottom: 40px;
-    font-family: Helvetica;
+    margin: 5px;
+    padding-bottom: 20px;
+    font-size: 40px;
 }
 
 #experiencia {
@@ -41,9 +64,10 @@ h1 {
 
 hr {
     height: 6px;
+    width: 230px;
     margin-left: 0%;
     background: rgb(16, 107, 39);
-    width: 5%;
+    border-bottom: solid;
 }
 
 main h2 {
@@ -59,20 +83,34 @@ main li {
     padding: 0;
     list-style: none;
 }
+@media(max-width:414px){
+    main{
+        display: none;
+    }
+}
 
 /* footer */
-
-footer h2 {
-    color: rgb(22, 22, 54);
+footer{
+    justify-content: flex-start;
 }
 
-footer hr {
-    height: 6px;
-    margin-left: 0%;
-    background: rgb(16, 107, 39);
-    width: 5%;
-}
-.list li {
+footer ul{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
     list-style: none;
-    margin-left: 0%;
+}
+ul a{
+    background-color: white;
+  transition: background-color .5s;
+}
+
+a:hover{
+    background-color: blue;
+}
+
+@media(max-width:768px){
+    footer{
+        background: rgb(16, 107, 39);
+    }
 }
